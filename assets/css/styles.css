@@ -1,0 +1,741 @@
+
+
+header{
+   position: relative;
+    height: 60px;
+  /*  position: absolute;
+    width: 1440px;
+    height: 47px;
+    left: 0px;
+    top: 0px;*/
+
+    background: linear-gradient(266.09deg, #1E272E 44.31%, #C4C4C4 84.82%, rgba(128, 122, 123, 0.718983) 100.35%);
+}
+header>nav>ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 0 20px 0 10px;
+
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+    font-size: 25px;
+
+}
+header>nav>ul>li>a:hover{
+    color: yellow;
+    transition: all 0.3s;
+    font-size: 30px;
+}
+#Kotu{
+position: absolute;
+width: 348px;
+height: 424px;
+left: 55px;
+top: 3081px;
+
+background: rgba(30, 39, 46, 0.5);}
+#brand{
+    font-size: 35px;
+    left: 50px;
+    text-decoration: none;
+    color: black;
+  /*  font-family: Calibri;*/
+    top: 7px;
+    position: absolute;
+}
+#background-section{
+    position: relative;
+    height: 780px;
+    border: 1px solid yellow;
+   background-image: url("../images/Untitled-1.jpg");
+   /* background-image: url("../images/background.png");*/
+    background-size: cover;
+    background-position: center;
+}
+
+#Hey {
+    /* Hey, */
+
+
+    position: absolute;
+    width: 138px;
+    height: 60px;
+    left: 122px;
+    top: 137px;
+
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#Programmer {
+
+    /* Web Developer & Programmer */
+    position: absolute;
+    width: 672px;
+    height: 53px;
+    left: 235px;
+    top: 296px;
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 50px;
+    color: #FBC531;
+}
+
+#FirstWords {
+    position: absolute;
+    width: 625px;
+    height: 76px;
+    left: 263px;
+    top: 257px;
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+#FirstWords1 {
+    position: absolute;
+    width: 625px;
+    height: 76px;
+    left: 356px;
+    top: 249px;
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+#FirstWords2 {
+    position: absolute;
+    width: 625px;
+    height: 76px;
+    left: 515px;
+    top: 231px;
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.name:first-letter{
+    color: yellow;
+    font-size: 60px;
+
+}
+
+/* Rectangle 8 */
+
+#background-section1{
+position: relative;
+/*width: 1440px;*/
+height: 1585px;
+/*left: 0px;
+top: 824px;*/
+    background-size: cover;
+    background-position: center;
+
+    background-image: url("../images/background2.jpg");
+
+background: linear-gradient(202.87deg, #1E272E 14.83%,
+rgba(255, 0,
+1, 0.866137) 100%, rgba(237, 27, 27, 0.850729) 100%);
+}
+
+
+#white-line{
+position: absolute;
+width: 1180.01px;
+height: 0px;
+left: 0px;
+top: 140px;
+
+border: 3px solid #FFFFFF;
+transform: rotate(0.19deg);}
+
+/* ABOUT ME */
+#about-me{
+
+    position: absolute;
+    width: 157px;
+    height: 30px;
+    left: 40px;
+    top: 90px;
+
+    font-family: Revalia;
+  /*  font-style: normal;*/
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+#photo-frame{
+
+    position: absolute;
+    width: 412px;
+    height: 525px;
+    left: -8px;
+    top: 220px;
+
+    background: rgba(30, 39, 46, 0.5);
+    border-radius: 5px;
+}
+
+#my-image1{
+    position: absolute;
+    width: 360px;
+    height: 600px;
+    left: -93px;
+    top: 180px;
+
+    background: url(../images/myImage.png);
+
+}
+#about-me-frame{
+    position: absolute;
+    width: 794px;
+    height: 590px;
+    left: 590px;
+    top: 190px;
+
+    border: 1px solid #FFD600;
+    box-sizing: border-box;
+}
+#myName {
+    /* I’m Sahan Samudra */
+
+
+    position: absolute;
+    width: 359px;
+    height: 35px;
+    left: 637px;
+    top: 163px;
+
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+#address{
+    /* From Minuwangoda,Sri Lanka */
+
+
+    position: absolute;
+    width: 261px;
+    height: 18px;
+    left: 637px;
+    top: 283px;
+
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #FBC531;
+}
+
+#description-about{
+    position: absolute;
+    width: 648.73px;
+    height: 331.99px;
+    left: 697.46px;
+    top: 350.45px;
+
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+#description-about1{
+    position: absolute;
+    width: 648.73px;
+    height: 331.99px;
+    left: 697.46px;
+    top: 415.45px;
+
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+#description-about2{
+    position: absolute;
+    width: 648.73px;
+    height: 331.99px;
+    left: 697.46px;
+    top: 490.45px;
+
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+#description-about3{
+    position: absolute;
+    width: 648.73px;
+    height: 331.99px;
+    left: 697.46px;
+    top: 560.45px;
+
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+}
+
+/* Vector 2 */
+
+
+#background-section2{
+
+    position: relative;
+    height: 1707px;
+    top: -660px;
+
+    background-image: url("../images/rotate.jpg");
+    /* background-image: url("../images/background.png");*/
+    background-size: cover;
+    background-position: center;
+
+        }
+
+#background-section3{
+    position: relative;
+  /*  width: 1440px;*/
+    height: 1707px;
+   /* left: 0px;*/
+    top: 0px;
+    background: linear-gradient(95.15deg,
+    rgba(0, 0, 0, 0.2) 3.67%, rgba(0, 0, 0, 0) 93.96%),
+    linear-gradient(160.41deg, #FF0808 0%,
+            rgba(233, 20, 20, 0.985847) 0%,
+            rgba(237, 7, 9, 0.973575) 7.31%,
+            rgba(45, 37, 43, 0.849615) 81.15%,
+            rgba(30, 39, 46, 0.84) 86.88%);
+
+        }
+#vector1{
+    position: absolute;
+    width: 1180.01px;
+    height: 0px;
+    left: 333px;
+    top: 100px;
+
+    border: 3px solid #FFFFFF;
+    transform: rotate(0.19deg);}
+
+#skill{
+
+    position: absolute;
+    width: 157px;
+    height: 30px;
+    left: 1380px;
+    top: 45px;
+
+    font-family: Revalia;
+    /*  font-style: normal;*/
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+#darak-frame{
+
+    /* Rectangle 7 */
+
+
+    position: absolute;
+    width: 1520px;
+    height: 1000px;
+    left: 0px;
+    top: -20px;
+;
+
+    background: rgba(30, 39, 46, 0.5);
+}
+
+
+#background-section4{
+
+    position: relative;
+    height: 1710px;
+    width: 2550px;
+    top: -1388px;
+
+    background-image: url("../images/service background.jpg");
+    /* background-image: url("../images/background.png");*/
+    background-size: cover;
+    background-position: center;
+
+}
+
+#services {
+
+    position: absolute;
+    width: 157px;
+    height: 30px;
+    left: 50px;
+    top: 35px;
+
+    font-family: Revalia;
+    /*  font-style: normal;*/
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;}
+
+#white-line1{
+    position: absolute;
+    width: 1180.01px;
+    height: 0px;
+    left: 0px;
+    top: 95px;
+
+    border: 3px solid #FFFFFF;
+    transform: rotate(0.19deg);}
+
+#service-frame{
+
+    position: absolute;
+    width: 348px;
+    height: 524px;
+    left: 100px;
+    top: 315px;
+
+    background: rgba(30, 39, 46, 0.5);
+}
+#service-frame1{
+
+    position: absolute;
+    width: 348px;
+    height: 524px;
+    left: 600px;
+    top: 315px;
+
+    background: rgba(30, 39, 46, 0.5);
+}
+#service-frame2{
+
+    position: absolute;
+    width: 348px;
+    height: 524px;
+    left: 1100px;
+    top: 315px;
+
+    background: rgba(30, 39, 46, 0.5);
+}
+#service-frame3{
+
+    position: absolute;
+    width: 348px;
+    height: 524px;
+    left: 350px;
+    top: 810px;
+
+    background: rgba(30, 39, 46, 0.5);
+}
+#service-frame4{
+
+    position: absolute;
+    width: 348px;
+    height: 524px;
+    left: 850px;
+    top: 835px;
+
+    background: rgba(30, 39, 46, 0.5);
+}
+#background-education{
+
+    position: relative;
+    opacity: 20%;
+    height: 900px;
+    top: -1840px;
+
+    background-image: url("../images/edu.jpg");
+    /* background-image: url("../images/background.png");*/
+   background-size: cover;
+    background-position: center;
+
+}
+
+
+#background-section5{
+
+    position: relative;
+    height: 1940px;
+    top: -1570px;
+
+    background-image: url("../images/rotate.jpg");
+    /* background-image: url("../images/background.png");*/
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+#background-section6{
+    position: relative;
+    /*  width: 1440px;*/
+    height: 1941px;
+     left: 0px;
+    top: 0px;
+    background: linear-gradient(202.04deg, rgba(30,
+    46, 41, 0.9) -29.55%, rgba(255, 0, 1, 0.779523) 100%,
+    rgba(237, 27, 27, 0.765656) 100%);
+
+}
+
+#vector2{
+    position: absolute;
+    width: 1180.01px;
+    height: 0px;
+    left: 333px;
+    top: 100px;
+
+    border: 3px solid #FFFFFF;
+    transform: rotate(0.19deg);}
+
+#education{
+
+    position: absolute;
+    width: 157px;
+    height: 30px;
+    left: 1325px;
+    top: 30px;
+
+    font-family: Revalia;
+    /*  font-style: normal;*/
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+#gallery-bg{
+
+    position: relative;
+    opacity: 20%;
+    height: 1000px;
+    top: -790px;
+
+    background-image: url("../images/gallery-background.jpg");
+    /* background-image: url("../images/background.png");*/
+    background-size: cover;
+    background-position: center;
+}
+
+#background-section7{
+
+    /* Rectangle 2 */
+
+
+    position: absolute;
+    width: 1519px;
+    height: 2060px;
+    left: 0px;
+    top: -23px;
+
+    background: linear-gradient(194.65deg, rgba(255, 0, 1, 0.779523) -5.78%, rgba(232, 0, 3, 0.815492) 20.45%, rgba(18, 14, 19, 0.8932) 92.77%, rgba(30, 39, 46, 0.9) 98.84%);
+}
+#b7{
+    position: relative;
+    height: 1990px;
+    top: -1588px;
+
+    background-image: url("../images/b7.jpg");
+    /* background-image: url("../images/background.png");*/
+    background-size: cover;
+    background-position: center;
+
+}
+
+#project-bg{
+    position: relative;
+    opacity: 20%;
+    height: 1100px;
+    top: -680px;
+
+    background-image: url("../images/project-bg.jpg");
+    /* background-image: url("../images/background.png");*/
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#gallery {
+
+    position: absolute;
+    width: 157px;
+    height: 30px;
+    left: 50px;
+    top: -905px;
+
+    font-family: Revalia;
+    /*  font-style: normal;*/
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;}
+
+#white-line2{
+    position: absolute;
+    width: 1180.01px;
+    height: 0px;
+    left: 0px;
+    top: -815px;
+
+    border: 3px solid #FFFFFF;
+    transform: rotate(0.19deg);}
+
+#vector3{
+    position: absolute;
+    width: 1180.01px;
+    height: 0px;
+    left: 333px;
+    top: 310px;
+
+    border: 3px solid #FFFFFF;
+    transform: rotate(0.19deg);}
+
+#project{
+
+    position: absolute;
+    width: 157px;
+    height: 30px;
+    left: 1325px;
+    top: 290px;
+
+    font-family: Revalia;
+    /*  font-style: normal;*/
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+/*    position: absolute;
+    width: 672px;
+    height: 53px;
+    left: 224px;
+    top: 321px;
+
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 53px;
+
+    color: #FBC531;*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#menu_mobile{
+    display: none;
+}
+/--------------------------Responsive-----------------------------/
+@media all and (max-width: 500px){
+    #background-section {
+
+        height: 382px;
+        position: relative;
+        width: 1000px;
+        border: 1px solid yellow;
+        background-image: url("../images/Untitled-1.jpg");
+        /* background-image: url("../images/background.png");*/
+        background-size: cover;
+        background-position: center;
+    }
+
+}
