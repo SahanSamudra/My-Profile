@@ -51,7 +51,7 @@ background: rgba(30, 39, 46, 0.5);}
     top: 7px;
     position: absolute;
 }
-#background-section{
+#HomePage{
     position: relative;
     height: 780px;
     border: 1px solid yellow;
@@ -145,7 +145,7 @@ background: rgba(30, 39, 46, 0.5);}
 
 /* Rectangle 8 */
 
-#background-section1{
+#Page-AboutMe{
 position: relative;
 /*width: 1440px;*/
 height: 1585px;
@@ -327,7 +327,7 @@ transform: rotate(0.19deg);}
 /* Vector 2 */
 
 
-#background-section2{
+#Page-Skills{
 
     position: relative;
     height: 1707px;
@@ -401,7 +401,7 @@ transform: rotate(0.19deg);}
 }
 
 
-#background-section4{
+#Page-Services{
 
     position: relative;
     height: 1710px;
